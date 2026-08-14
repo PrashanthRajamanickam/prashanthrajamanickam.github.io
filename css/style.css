@@ -232,11 +232,7 @@ nav {
   align-items: center;
   gap: 10px;
 }
-.hero-eyebrow::before {
-  content: '';
-  width: 24px; height: 1px;
-  background: var(--muted);
-}
+
 
 .hero-name {
   font-size: clamp(48px, 7vw, 80px);
