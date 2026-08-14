@@ -1,220 +1,627 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About — Tamizharivu Kumar</title>
-  <meta name="description" content="Learn about Tamizharivu Kumar — Technical Writer with 5+ years turning complex systems into clear, human documentation." />
+
+  <title>About — Prashanth Rajamanickam</title>
+
+  <meta
+    name="description"
+    content="About Prashanth Rajamanickam — Technical Writer, Documentation Engineer, and AI Documentation professional."
+  />
+
   <link rel="stylesheet" href="../css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 </head>
+
 <body>
 
-  <!-- NAV -->
+  <!-- ==================== NAVIGATION ==================== -->
+
   <nav>
     <div class="nav-inner">
-      <a class="nav-logo" href="../index.html">Ta<span>.</span></a>
+
+      <a class="nav-logo" href="../index.html">
+        PR<span>.</span>
+      </a>
+
       <ul class="nav-links">
         <li><a href="../index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a href="about.html" class="active">About</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
+
       <button class="nav-toggle" aria-label="Toggle menu">
-        <span></span><span></span><span></span>
+        <span></span>
+        <span></span>
+        <span></span>
       </button>
+
     </div>
   </nav>
 
-  <!-- ABOUT HERO -->
-  <section class="about-hero">
+
+  <!-- ==================== PAGE HEADER ==================== -->
+
+  <section class="page-hero">
+
     <div class="container">
-      <div class="about-hero-grid">
 
-        <div class="fade-up">
-          <p class="section-label">About Me</p>
-          <h1 class="section-title">Writing Is<br>My Design Tool.</h1>
+      <p class="section-label fade-up">
+        About Me
+      </p>
 
-          <p style="font-size:17px; color:var(--muted); line-height:1.85; margin-bottom:20px;">
-            Hi, I'm Tamizharivu — a Technical Writer based in Tamil Nadu, India.
-            I've spent the last four years helping SaaS companies and enterprise
-            technology teams turn complex systems into documentation that developers
-            trust and users actually act on.
+      <h1 class="page-title fade-up">
+        Technology, documentation,<br>
+        and the space between them.
+      </h1>
+
+      <p class="page-intro fade-up">
+        I'm Prashanth Rajamanickam, a Technical Writer and Documentation
+        Engineer with 7+ years of experience helping people understand
+        complex products, APIs, and technology.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- ==================== ABOUT ==================== -->
+
+  <section class="about-section">
+
+    <div class="container">
+
+      <div class="about-grid">
+
+        <div class="about-main fade-up">
+
+          <p class="section-label">
+            My Approach
           </p>
-          <p style="font-size:17px; color:var(--muted); line-height:1.85; margin-bottom:36px;">
-            I work at the intersection of language, systems thinking, and user
-            empathy. From architecting AI-powered automation tools to cutting
-            support tickets by 50% with a well-built knowledge base, I treat
-            every documentation deliverable as a product decision. When users find
-            their answer without opening a ticket — that's the goal.
+
+          <h2>
+            I don't just document products.
+            I understand how they work.
+          </h2>
+
+          <p>
+            My technical writing journey has been centered around one
+            principle: documentation should help people accomplish
+            something, not simply describe what a product does.
           </p>
 
-          <div class="about-stat-chips">
-            <div class="stat-chip">
-              <span class="num">4+</span>
-              <span class="lbl">Years Experience</span>
-            </div>
-            <div class="stat-chip">
-              <span class="num">50%</span>
-              <span class="lbl">Avg. Ticket Drop</span>
-            </div>
-            <div class="stat-chip">
-              <span class="num">80%</span>
-              <span class="lbl">SEO Traffic Lift</span>
-            </div>
+          <p>
+            Over the years, I've worked across API documentation,
+            developer documentation, user guides, online help,
+            knowledge bases, UX content, structured authoring, and
+            documentation strategy.
+          </p>
+
+          <p>
+            I work closely with product, engineering, support, and
+            cross-functional teams to understand the technology,
+            identify information gaps, and turn that understanding
+            into useful documentation.
+          </p>
+
+          <p>
+            My experience with source code, development workflows,
+            REST APIs, OpenAPI, DITA/XML, Markdown, and Git-based
+            workflows allows me to work comfortably with technical
+            teams and translate engineering concepts into content
+            that users and developers can actually use.
+          </p>
+
+        </div>
+
+
+        <div class="about-side fade-up">
+
+          <div class="about-stat">
+
+            <span class="about-stat-number">
+              7+
+            </span>
+
+            <span class="about-stat-label">
+              Years of<br>
+              Technical Writing
+            </span>
+
           </div>
 
-          <div style="margin-top:40px; display:flex; gap:16px; flex-wrap:wrap;">
-            <a href="contact.html" class="btn btn-primary">Let's Work Together</a>
-            <a href="../assets/Tamizharivu K Resume.pdf" class="btn btn-outline" target="_blank" rel="noopener">
-              Download Resume
-            </a>
+
+          <div class="about-stat">
+
+            <span class="about-stat-number">
+              50%
+            </span>
+
+            <span class="about-stat-label">
+              Support Ticket<br>
+              Reduction
+            </span>
+
           </div>
-        </div>
 
-        <div class="about-image-wrap fade-up">
-          <img class="about-photo" src="../assets/images/about1.jpeg" alt="Tamizharivu Kumar">
-          <!-- <div class="about-photo-placeholder">
-            <svg viewBox="0 0 24 24" fill="none" stroke="#c45c2e" stroke-width="1" width="72" height="72" opacity="0.3">
-              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
-              <circle cx="12" cy="7" r="4"/>
-            </svg>
-          </div> -->
-          <div class="about-accent-block"></div>
-        </div>
 
-        
+          <div class="about-stat">
+
+            <span class="about-stat-number">
+              80%
+            </span>
+
+            <span class="about-stat-label">
+              Organic Traffic<br>
+              Increase
+            </span>
+
+          </div>
+
+        </div>
 
       </div>
+
     </div>
+
   </section>
 
-  <!-- SKILLS SECTION -->
-  <section class="skills-section">
+
+  <!-- ==================== DOCUMENTATION + AI ==================== -->
+
+  <section class="services-strip">
+
     <div class="container">
-      <p class="section-label fade-up">What I Do</p>
-      <h2 class="section-title fade-up">Core Competencies.</h2>
 
-      <div class="skills-grid">
+      <p class="section-label fade-up">
+        Where I'm Going
+      </p>
 
-        <div class="skill-card fade-up">
-          <h3><span class="dot"></span>Authoring &amp; Publishing</h3>
-          <ul class="skill-list">
-            <li>MadCap Flare</li>
-            <li>Confluence &amp; Document360</li>
-            <li>Oxygen XML Editor</li>
-            <li>Adobe FrameMaker</li>
-            <li>GitHub (docs-as-code)</li>
-          </ul>
+      <h2 class="section-title fade-up">
+        Documentation is<br>
+        becoming more technical.
+      </h2>
+
+
+      <div class="about-grid">
+
+        <div class="about-main fade-up">
+
+          <p>
+            My work has increasingly moved beyond writing and editing
+            content. I have started building applications and
+            documentation-focused tools to solve problems that I
+            encounter in documentation workflows.
+          </p>
+
+          <p>
+            Using Claude Code, I learned to develop applications by
+            studying source code and understanding existing development
+            guidelines. I then applied documentation guidelines and
+            requirements to build an application that could support
+            internal documentation workflows.
+          </p>
+
+          <p>
+            The application was made available to internal users and
+            has helped reduce production effort while improving
+            documentation quality and consistency.
+          </p>
+
+          <p>
+            This experience changed how I think about technical
+            writing. Instead of asking only how documentation can be
+            written better, I increasingly ask how technology can help
+            documentation teams work better.
+          </p>
+
         </div>
 
-        <div class="skill-card fade-up">
-          <h3><span class="dot"></span>Markup &amp; Technical Skills</h3>
-          <ul class="skill-list">
-            <li>DITA &amp; XML</li>
-            <li>Markdown / MDX</li>
-            <li>HTML &amp; CSS</li>
-            <li>JavaScript (reading &amp; editing)</li>
-            <li>Single Sourcing</li>
-          </ul>
-        </div>
 
-        <div class="skill-card fade-up">
-          <h3><span class="dot"></span>API &amp; Developer Docs</h3>
-          <ul class="skill-list">
-            <li>Postman (API testing &amp; docs)</li>
-            <li>Swagger / OpenAPI</li>
-            <li>REST API documentation</li>
-            <li>Use-case articles</li>
-            <li>Postman Academy Certified</li>
-          </ul>
-        </div>
+        <div class="about-side fade-up">
 
-        <div class="skill-card fade-up">
-          <h3><span class="dot"></span>AI &amp; Automation</h3>
-          <ul class="skill-list">
-            <li>OpenAI Agents SDK</li>
-            <li>ChatGPT (prompt engineering)</li>
-            <li>GitHub Copilot</li>
-            <li>Automated output generation</li>
-            <li>AI-first documentation workflows</li>
-          </ul>
-        </div>
+          <div class="feat-card">
 
-        <div class="skill-card fade-up">
-          <h3><span class="dot"></span>Media &amp; Visual</h3>
-          <ul class="skill-list">
-            <li>Snagit (screenshots &amp; annotation)</li>
-            <li>Camtasia (video tutorials)</li>
-            <li>Canva (visual content)</li>
-            <li>Figma (design review &amp; UX copy)</li>
-          </ul>
-        </div>
+            <p class="feat-tag">
+              AI + Documentation
+            </p>
 
-        <div class="skill-card fade-up">
-          <h3><span class="dot"></span>Process &amp; Collaboration</h3>
-          <ul class="skill-list">
-            <li>SDLC &amp; DDLC workflows</li>
-            <li>Agile / Sprint-based delivery</li>
-            <li>Jira &amp; Azure DevOps</li>
-            <li>Peer review &amp; SME interviews</li>
-            <li>SEO for documentation sites</li>
-          </ul>
+            <h3>
+              Building tools for documentation teams
+            </h3>
+
+            <p>
+              Combining technical writing knowledge with
+              AI-assisted application development to improve
+              documentation workflows, quality, and productivity.
+            </p>
+
+          </div>
+
         </div>
 
       </div>
+
     </div>
+
   </section>
 
-  <!-- EXPERIENCE TIMELINE -->
-  <section class="timeline-section">
+
+  <!-- ==================== AI READINESS ==================== -->
+
+  <section class="home-projects">
+
     <div class="container">
-      <p class="section-label fade-up">Experience</p>
-      <h2 class="section-title fade-up">Career Journey.</h2>
 
-      <div class="timeline fade-up">
+      <p class="section-label fade-up">
+        Current Focus
+      </p>
 
-        <div class="timeline-item">
-          <p class="timeline-date">2024 — Present</p>
-          <h3>Technical Writer - II</h3>
-          <p class="company">Capgemini · Bengaluru, IN</p>
-          <p>Revamped the online help portal, resolving HTML/CSS issues and boosting satisfaction by 30%. Integrated ChatGPT and GitHub Copilot to cut first-draft time. Architected an OpenAI Agents tool that eliminated a long-standing pipeline bottleneck.</p>
+      <h2 class="section-title fade-up">
+        Making documentation<br>
+        ready for AI.
+      </h2>
+
+
+      <div class="featured-grid">
+
+        <div class="feat-card fade-up">
+
+          <p class="feat-tag">
+            AI Consumability
+          </p>
+
+          <h3>
+            Documentation AI Readiness
+          </h3>
+
+          <p>
+            I built an application that evaluates documentation
+            across six metrics related to AI consumability.
+          </p>
+
         </div>
 
-        <div class="timeline-item">
-          <p class="timeline-date">Certification</p>
-          <h3>API Documentation Path</h3>
-          <p class="company">Postman Academy</p>
-          <p>Completed the API Documentation path, covering REST concepts, writing reference docs, testing endpoints with collections, and publishing via Postman's tooling.</p>
+
+        <div class="feat-card fade-up">
+
+          <p class="feat-tag">
+            Gap Analysis
+          </p>
+
+          <h3>
+            Identify Documentation Gaps
+          </h3>
+
+          <p>
+            The application highlights areas where documentation
+            may be lagging and helps identify content that requires
+            improvement.
+          </p>
+
         </div>
 
-        <div class="timeline-item">
-          <p class="timeline-date">September 2021 — December 2023</p>
-          <h3>Technical Writer</h3>
-          <p class="company">Kovai.co · Coimbatore, Tamil Nadu</p>
-          <p>Helped build a SaaS knowledge base platform, cutting support tickets by 50%. Optimised the docs site for SEO, driving 80% more organic traffic and inbound leads. Restructured architecture for a 40% satisfaction boost and 25% bounce rate drop.</p>
+
+        <div class="feat-card fade-up">
+
+          <p class="feat-tag">
+            Recommendations
+          </p>
+
+          <h3>
+            From Assessment to Action
+          </h3>
+
+          <p>
+            Instead of simply producing a score, the application
+            provides suggestions for improving documentation and
+            understanding the potential impact of existing gaps.
+          </p>
+
         </div>
 
-        <div class="timeline-item">
-          <p class="timeline-date">2018 — 2021</p>
-          <h3>Bachelor of Computer Application (BCA)</h3>
-          <p class="company">Jamal Mohamed College · Tiruchirappalli, Tamil Nadu</p>
-          <p>Graduated with a foundation in computer science, software development lifecycles, and information systems — the technical grounding that informs how I read and explain engineering concepts today.</p>
+
+        <div class="feat-card fade-up">
+
+          <p class="feat-tag">
+            Real-World Adoption
+          </p>
+
+          <h3>
+            Built for Production Work
+          </h3>
+
+          <p>
+            The application has been tested by multiple internal
+            users and is actively being used in their production
+            workflows.
+          </p>
+
         </div>
 
       </div>
+
     </div>
+
   </section>
 
-  <!-- FOOTER -->
+
+  <!-- ==================== SKILLS ==================== -->
+
+  <section class="about-section">
+
+    <div class="container">
+
+      <p class="section-label fade-up">
+        Skills & Expertise
+      </p>
+
+      <h2 class="section-title fade-up">
+        What I work with.
+      </h2>
+
+
+      <div class="featured-grid">
+
+
+        <div class="feat-card fade-up">
+
+          <p class="feat-tag">
+            Documentation
+          </p>
+
+          <h3>
+            Technical & Developer Content
+          </h3>
+
+          <p>
+            API documentation, developer guides, user guides,
+            online help, README files, changelogs, knowledge bases,
+            use-case articles, and product documentation.
+          </p>
+
+        </div>
+
+
+        <div class="feat-card fade-up">
+
+          <p class="feat-tag">
+            Structured Authoring
+          </p>
+
+          <h3>
+            DITA · XML · Single Sourcing
+          </h3>
+
+          <p>
+            Structured documentation, XML-based authoring,
+            DITA concepts, content reuse, single sourcing,
+            documentation standards, and content governance.
+          </p>
+
+        </div>
+
+
+        <div class="feat-card fade-up">
+
+          <p class="feat-tag">
+            Developer Technologies
+          </p>
+
+          <h3>
+            APIs · Git · Web Technologies
+          </h3>
+
+          <p>
+            REST APIs, OpenAPI, Swagger, Postman, Markdown,
+            HTML, CSS, YAML, JSON, Git, GitHub, and technical
+            workflows involving source code.
+          </p>
+
+        </div>
+
+
+        <div class="feat-card fade-up">
+
+          <p class="feat-tag">
+            AI & Innovation
+          </p>
+
+          <h3>
+            AI-Assisted Documentation
+          </h3>
+
+          <p>
+            Claude Code, ChatGPT, GitHub Copilot, AI-assisted
+            application development, documentation automation,
+            AI-readiness assessment, and documentation
+            quality analysis.
+          </p>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ==================== CAREER ==================== -->
+
+  <section class="services-strip">
+
+    <div class="container">
+
+      <p class="section-label fade-up">
+        Experience
+      </p>
+
+      <h2 class="section-title fade-up">
+        A career built around<br>
+        making technology clearer.
+      </h2>
+
+
+      <div class="featured-grid">
+
+
+        <div class="feat-card fade-up">
+
+          <p class="feat-tag">
+            SAP
+          </p>
+
+          <h3>
+            Technical Writing & User Assistance
+          </h3>
+
+          <p>
+            Working in a product environment where technical
+            understanding, structured documentation, user assistance,
+            and documentation quality come together.
+          </p>
+
+        </div>
+
+
+        <div class="feat-card fade-up">
+
+          <p class="feat-tag">
+            Previous Experience
+          </p>
+
+          <h3>
+            API, SaaS & Product Documentation
+          </h3>
+
+          <p>
+            Experience across API documentation, SaaS knowledge
+            bases, online help, UX content, documentation
+            restructuring, SEO, and product learning content.
+          </p>
+
+        </div>
+
+
+        <div class="feat-card fade-up">
+
+          <p class="feat-tag">
+            Earlier Career
+          </p>
+
+          <h3>
+            Technical Communication & Content Quality
+          </h3>
+
+          <p>
+            Started my technical writing career working on product
+            documentation, peer reviews, content quality,
+            delivery processes, and team collaboration.
+          </p>
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- ==================== PHILOSOPHY ==================== -->
+
+  <div class="testimonial-section fade-up">
+
+    <div class="container">
+
+      <blockquote class="main-quote">
+
+        "Great documentation is not what you write —
+        it is what users understand without needing to ask."
+
+      </blockquote>
+
+      <p class="quote-attr">
+        — Prashanth Rajamanickam
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <!-- ==================== FOOTER ==================== -->
+
   <footer>
+
     <div class="container">
-      <div class="footer-logo">Ta<span>.</span></div>
-      <p>Technical Writer — Available for freelance &amp; full-time roles.</p>
-      <p><a href="mailto:tamizharivukumar44@gmail.com">tamizharivukumar44@gmail.com</a></p>
-      <p style="margin-top:16px; font-size:12px; color:#555;">© 2025 Tamizharivu Kumar. Built with HTML, CSS &amp; JS. Hosted on GitHub Pages.</p>
+
+      <div class="footer-logo">
+        PR<span>.</span>
+      </div>
+
+      <p>
+        Technical Writer · Documentation Engineer · AI Documentation
+      </p>
+
+      <p>
+        <a href="mailto:prashanthrajamanickam@gmail.com">
+          prashanthrajamanickam@gmail.com
+        </a>
+      </p>
+
+      <p style="margin-top:16px;">
+
+        <a
+          href="https://www.linkedin.com/"
+          target="_blank"
+          rel="noopener noreferrer">
+          LinkedIn
+        </a>
+
+        &nbsp; · &nbsp;
+
+        <a
+          href="https://github.com/PrashanthRajamanickam"
+          target="_blank"
+          rel="noopener noreferrer">
+          GitHub
+        </a>
+
+      </p>
+
+      <p
+        style="
+          margin-top:16px;
+          font-size:12px;
+          color:#555;
+        ">
+
+        © 2026 Prashanth Rajamanickam.
+        Built with HTML, CSS &amp; JavaScript.
+        Hosted on GitHub Pages.
+
+      </p>
+
     </div>
+
   </footer>
 
+
   <script src="../js/main.js"></script>
+
 </body>
+
 </html>
+```
