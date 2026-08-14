@@ -223,14 +223,14 @@ nav {
 
 .hero-eyebrow {
   font-family: var(--font-mono);
-  font-size: 13px;
-  letter-spacing: 0.12em;
+  font-size: 12px;
+  letter-spacing: 0.08em;
   color: var(--muted);
   text-transform: uppercase;
   margin-bottom: 24px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  white-space: nowrap;
 }
 
 
