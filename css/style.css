@@ -228,9 +228,10 @@ nav {
   color: var(--muted);
   text-transform: uppercase;
   margin-bottom: 24px;
-  display: flex;
-  align-items: center;
+  display: block;
   white-space: nowrap;
+  width: max-content;
+  max-width: none;
 }
 
 
